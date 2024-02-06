@@ -65,7 +65,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-  
+  /* Floating images don't line up correctly when re-sized */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,13 +77,15 @@ p {
     margin-left: 25px;
 }
 
+/* The text in the content wraps outside the backround*/
 .content {
     width: 75%;
     height: 100%;
     display: inline-block;
     margin-left: 20px;
+    
 }
-
+    /* The benefits move below content when resized too small */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,6 +95,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+
 }
 
 .benefit-lead {
