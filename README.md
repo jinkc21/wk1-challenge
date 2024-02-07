@@ -11,6 +11,7 @@ N/A
 ## Usage
 
 To view the website, please visit: https://jinkc21.github.io/wk1-challenge/
+
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
