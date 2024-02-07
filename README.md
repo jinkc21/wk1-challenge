@@ -12,7 +12,8 @@ N/A
 
 To view the website, please visit: https://jinkc21.github.io/wk1-challenge/
 
-    ![Alt text](/assets/images/screenshot.png?raw=true "Screenshot")
+Screenshot: click to view
+    ![Homepage](/assets/images/screenshot.png?raw=true "Screenshot")
    
 
 ## Credits
