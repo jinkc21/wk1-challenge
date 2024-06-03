@@ -5,7 +5,7 @@
 }
 
 .nav-bar {
-    display: inline;
+    display: flex;
     top: 10px;
     right: 20px;
 }
@@ -88,15 +88,24 @@ p {
     width: 100%;
     height: 100%;
     display: flexbox;
-    margin-left: 5%;
+    margin-left: 5px;
     margin-bottom: 5px;
-    padding: 50px;
+    padding: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
     background-color: #0072bb;
     color: #ffffff;
 } 
+
+.content img {
+    max-height: 20vh;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
    /* The benefits move below content when resized too small */
-.benefits {
+.benefits-container {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -105,37 +114,19 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
     background-color: #2589bd;
-
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-
-
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 
